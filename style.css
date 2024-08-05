@@ -1,9 +1,86 @@
 body {
-    font-family: "Roboto";
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.container {
+    margin: 10px 100px;
 }
 
 .hero {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.hero .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero .nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero .nav .links ul{
+    display: flex;
+    gap: 15px;
+}
+
+.hero .nav .links li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero .landing .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+}
+
+.hero .landing .content .main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero .landing .content .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .landing .content button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 25px;
+    background-color: #3882F6;
+}
+
+.hero .landing .img {
+    width: 40%;
+}
+
+.hero .landing .img img {
+    width: 100%;
+    height: 250px;
 }
 
 .quote {
