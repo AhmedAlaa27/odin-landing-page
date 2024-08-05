@@ -5,6 +5,7 @@ body {
 
 .container {
     margin: 10px 100px;
+    padding-bottom: 50px;
 }
 
 .hero {
@@ -13,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding-bottom: 50px;
 }
 
 .hero .nav {
@@ -81,6 +81,39 @@ body {
 .hero .landing .img img {
     width: 100%;
     height: 250px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info .header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.random-info .info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.random-info .info .box {
+    width: 20%;
+}
+
+.random-info .info .box p {
+    font-size: 18px;
+    color: #525354;
+}
+
+.random-info .info .box img {
+    width: 90%;
 }
 
 .quote {
